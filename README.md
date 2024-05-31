@@ -3,7 +3,7 @@
 We provide both **timing** and **functional simulations** based on user parameters.
 
 ## Simulator Structure
-<img src="./Fig_simulator.jpg" width="1200" height="600"/>
+ ![image](./Fig_simulator.jpg)
 
 ## Index 
 - [Prerequisite](#Prerequisite)
