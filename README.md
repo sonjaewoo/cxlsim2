@@ -87,14 +87,14 @@ cmake ..
 make
 ```
   - Some modifications for integration.
-    - **ramulator2/CMakeList.txt** *(need to fix)*
-    - **ramulator2/src/CMakeList.txt** *(need to fix)*
-    - **ramulator2/src/base/request.h** *(need to fix)*
-    - **ramulator2/src/base/request.cpp** *(need to fix)*
-    - **ramulator2/src/dram_controller/impl/generic_dram_controller.cpp** *(need to fix)*
-    - **ramulator2/config/example_config.yaml** *(need to add)*
-    - **ramulator2/src/Bridge.cpp** *(need to add)*
-    - **ramulator2/src/Bridge.h** *(need to add)*
+    - **etc/CMakeList.txt -> ramulator2/CMakeList.txt** *(need to fix)*
+    - **etc/CMakeList2.txt -> ramulator2/src/CMakeList.txt** *(need to fix)*
+    - **etc/request.h -> ramulator2/src/base/request.h** *(need to fix)*
+    - **etc/request.cpp -> ramulator2/src/base/request.cpp** *(need to fix)*
+    - **etc/generic_dram_controller.cpp -> ramulator2/src/dram_controller/impl/generic_dram_controller.cpp** *(need to fix)*
+    - **etc/DDR5_3200C.yaml -> ramulator2/config/DDR5_3200C.yaml** *(need to add)*
+    - **etc/Bridge.cpp -> ramulator2/src/Bridge.cpp** *(need to add)*
+    - **etc/Bridge.h -> ramulator2/src/Bridge.h** *(need to add)*
 
 ## How to Run
 ```
