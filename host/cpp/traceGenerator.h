@@ -1,7 +1,7 @@
 #ifndef TRACE_GENERATOR_H
 #define TRACE_GENERATOR_H
 #pragma once
-#include "traceManager.h"
+#include "packetManager.h"
 
 class traceGenerator {
 public:

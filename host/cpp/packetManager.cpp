@@ -1,4 +1,4 @@
-#include "traceManager.h"
+#include "packetManager.h"
 
 traceManager::traceManager(int coreID, string name) {
     ts.tv_sec = 0;
