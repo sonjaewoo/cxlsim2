@@ -6,7 +6,7 @@ void Configurations::init_dram()
 {
 	cout << "--------INIT DRAM--------\n";
     stringstream filePath;
-    filePath << ROOT_PATH << "/hsim/configs/memory.json";
+    filePath << ROOT_PATH << "/cxlsim/configs/memory.json";
 
     ifstream ifs(filePath.str());
     if(!ifs.is_open()) {
@@ -62,7 +62,7 @@ void Configurations::init_dram()
 void Configurations::init_configurations()
 {
     stringstream filePath;
-    filePath << ROOT_PATH << "/hsim/configs/system.json";
+    filePath << ROOT_PATH << "/cxlsim/configs/system.json";
 
     ifstream ifs(filePath.str());
     if(!ifs.is_open()) {

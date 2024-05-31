@@ -7,7 +7,7 @@ traceGenerator::traceGenerator(int coreID, string name) : coreID(coreID) {
 }
 
 uint32_t traceGenerator::get_packet_size() {
-	ifstream ifs("../../hsim/configs/system.json");
+	ifstream ifs("../../cxlsim/configs/system.json");
 	if (!ifs.is_open()) {
 		cerr << "Failed to open system.json" << endl;
 		return 1;

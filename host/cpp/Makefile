@@ -1,6 +1,6 @@
 CC = g++
-CFLAGS = -std=c++11 -Wall -I../../hsim/utilities
-VPATH = ../../hsim/utilities
+CFLAGS = -std=c++11 -Wall -I../../cxlsim/utilities
+VPATH = ../../cxlsim/utilities
 
 SOURCES = traceGenerator.cpp traceManager.cpp main.cpp packet_buffer.cpp
 OBJECTS = $(SOURCES:.cpp=.o)

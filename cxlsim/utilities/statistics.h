@@ -1,5 +1,5 @@
-#ifndef HSIM_STATISTICS_H
-#define HSIM_STATISTICS_H
+#ifndef SIM_STATISTICS_H
+#define SIM_STATISTICS_H
 
 #include <iostream>
 #include <cstdint>
@@ -51,4 +51,4 @@ private:
 	std::string name;
 };
 
-#endif //HSIM_STATISTICS_H
+#endif

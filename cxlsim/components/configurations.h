@@ -1,5 +1,5 @@
-#ifndef HSIM_CONFIGURATIONS_H
-#define HSIM_CONFIGURATIONS_H
+#ifndef SIM_CONFIGURATIONS_H
+#define SIM_CONFIGURATIONS_H
 
 #include <iostream>
 #include <stdexcept>
@@ -73,4 +73,4 @@ private:
     map<int, CPUInfo> cpu_map;
 };
 
-#endif //HSIM_CONFIGURATIONS_H
+#endif

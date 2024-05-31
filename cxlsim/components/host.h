@@ -2,7 +2,7 @@
 #include <string>
 #include <unistd.h>
 #include <sysc/kernel/sc_event.h>
-#include <utilities/hsim_packet.h>
+#include <utilities/sim_packet.h>
 #include <utilities/statistics.h>
 #include <utilities/shmem_communicator.h>
 

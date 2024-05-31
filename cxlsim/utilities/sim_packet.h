@@ -1,5 +1,5 @@
-#ifndef __HSIM_PACKET_H
-#define __HSIM_PACKET_H
+#ifndef __SIM_PACKET_H
+#define __SIM_PACKET_H
 
 #ifdef __cplusplus
 extern "C"

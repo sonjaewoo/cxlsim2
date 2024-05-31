@@ -7,7 +7,7 @@ extern "C"
 {
 #endif
 
-#include "hsim_packet.h"
+#include "sim_packet.h"
 #define PKT_BUFFER_SIZE (8192)
 
 typedef struct {

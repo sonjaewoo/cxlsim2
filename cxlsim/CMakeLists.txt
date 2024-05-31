@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(hsim)
+project(cxlsim)
 
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DRAMULATOR_DEBUG")
 set(CMAKE_CXX_STANDARD 20)
@@ -58,7 +58,7 @@ add_definitions(-DROOT_PATH="${CMAKE_CURRENT_SOURCE_DIR}/../")
 add_definitions(-DDRAM_RAMULATOR)
 add_definitions(-DRAMULATOR_PATH="${CMAKE_CURRENT_SOURCE_DIR}/../ramulator2/")
 
-add_executable(hsim sc_main.cpp
+add_executable(cxlsim sc_main.cpp
 				components/host.cpp
 				components/dram.cpp
 				components/wrapper.cpp

@@ -1,9 +1,9 @@
 {
   "dram_num" : 1,
   "dram0" : {
-    "config" : "DDR5_4800", //Ramulator2
+    "config" : "DDR5_3200C", //Ramulator2
     "size" : "0xc0000000",
-    "freq" : 2.4,
+    "freq" : 1.6,
 	"width" : 8,
 	"channel" : 2
   }

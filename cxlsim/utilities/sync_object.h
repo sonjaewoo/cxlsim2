@@ -1,5 +1,5 @@
-#ifndef HSIM_SYNC_OBJECT_H
-#define HSIM_SYNC_OBJECT_H
+#ifndef SIM_SYNC_OBJECT_H
+#define SIM_SYNC_OBJECT_H
 
 using namespace sc_core;
 
@@ -33,4 +33,4 @@ private:
     bool sync[2000000000];
 };
 
-#endif //HSIM_SYNC_OBJECT_H
+#endif

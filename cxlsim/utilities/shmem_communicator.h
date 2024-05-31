@@ -2,7 +2,7 @@
 #define ShmemCommunicator_H_
 
 #include "packet_buffer.h"
-#include "hsim_packet.h"
+#include "sim_packet.h"
 #include <time.h>
 #include <sys/mman.h>
 #include <pwd.h>
@@ -43,4 +43,4 @@ class ShmemCommunicator {
 	struct timespec ts;
 };
 
-#endif /* ShmemCommunicator_H_ */
+#endif

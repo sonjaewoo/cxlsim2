@@ -16,7 +16,7 @@ Statistics::Statistics()
 
 void Statistics::print_stats()
 {
-	cout << "--------------  " << name << "  --------------" << '\n';
+	cout << "##### [" << name << "] #####" << '\n';
     
 	if (stats.num_read_packet) {
         cout << "<-- READ -->" << '\n';
@@ -31,6 +31,7 @@ void Statistics::print_stats()
     	cout << "flit num        : " << stats.num_write_flit << '\n';
         cout << "total size      : " << stats.total_write_size << '\n';
     }
+	cout << "------------------------------------" << '\n';
 }
 
 void Statistics::print_mem_stats()
@@ -40,7 +41,7 @@ void Statistics::print_mem_stats()
     unsigned average_write_latency = 0;
     unsigned average_write_size = 0;
 	
-	cout << "-----------  " << name << "  -----------" << '\n';
+	cout << "##### [" << name << "] #####" << '\n';
     
 	if (stats.num_read_request > 0) {
         average_read_latency = stats.total_read_latency / stats.num_read_request;
@@ -66,4 +67,6 @@ void Statistics::print_mem_stats()
     cout << "average size    : " << average_write_size << '\n';
 	cout << "total latency   : " << stats.total_write_latency << " (ns)" << '\n';
     cout << "average latency : " << average_write_latency << " (ns)" << '\n';
+
+	cout << "------------------------------------" << '\n';
 }
